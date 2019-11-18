@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 100%;
+	height: auto;
+	max-width: 1080px;
+	margin: auto;
+	padding: 100px 0;
+}
+.header__heading{
+	font-size: 50px;
+	line-height: 60px;
+	color: rgb(50, 54, 57);
+	font-family: 'Alata';
+	text-align: center;
+	white-space: pre-wrap;
+}
+.works{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.works__item{
+	display: block;
+	max-width: 400px;
+	min-width: 320px;
+	height: auto;
+	width: 100%;
+	box-shadow: 5px 5px 15px #ccc;
+	border-radius: 25px;
+	padding-bottom: 20px;
+	margin: 40px 10px;
+}
+.works__item:hover{
+	box-shadow: 0 0 30px #fc6f4e;
+}
+.works__item-img{
+	display: block;
+}
+.works__item-img > img{
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: auto;
+}
+.works__item-link{
+	color: rgb(50, 54, 57);
+	text-decoration: none;
+}
+.works__item-heading{
+	font-size: 25px;
+	line-height: 25px;
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 300;
+	color: rgb(50, 54, 57);
+	margin-top: 20px;
+}
+.footer__heading{
+	font-size: 35px;
+	line-height: 40px;
+	font-family: 'Alata';
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contacts{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.contacts__item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.contacts__item-logo{
+	width: 20px;
+	height: auto;
+	max-width: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: auto;
+}
+.contacts__item-link{
+	margin-left: 10px;
+}
+.contacts__item-link > a{
+	font-size: 20px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: rgb(50, 54, 57);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

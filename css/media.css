@@ -1,0 +1,19 @@
+/*Tablets*/
+@media all and (max-width: 768px){
+	.container{
+		padding: 50px 0;
+	}
+	.header__heading{
+		font-size: 45px;
+	}
+}
+
+/*Phones*/
+@media all and (max-width: 480px){
+	.header__heading{
+		font-size: 40px;
+	}
+	.works{
+		padding: 25px 15px;
+	}
+}
