@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content="Правда или действие. Игра для веселой компании"/>
+    <meta name="theme-color" content="#000"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000"/>
+    <title>Truth or Dare</title>
+    <link rel="shortcut icon" href="img/logo-main.png" type="image/png"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-12 col-lg-6">
+            <div class="mainLogo"><img src="img/logo-main.png" alt="Logo"/>
+              <h1>Правда <br/> или <br/> действие</h1>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2>Правила</h2>
+            <ul class="rules">
+              <li class="rules__item">Вам должно быть больше 18 лет.</li>
+              <li class="rules__item">Никто не имеет права заставлять человека играть. Доверяйте друг-другу.</li>
+              <li class="rules__item">Каждый человек имеет право выйти из игры, если ему станет некомфортно.</li>
+              <li class="rules__item">Каждый человек имеет право отказаться отвечать на вопрос или выполнять действие.</li>
+              <li class="rules__item">Перед началом игры согласуйте личные правила, приемлимые лично для Вас.</li>
+              <li class="rules__item">Выпейте :)</li>
+            </ul>
+            <div class="button__header button" id="headerOkay">Все понятно <span>&#x27F6;</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h3>The game is developed by <a href="mailto:yelmanovbohdan@gmail.com">Yelmanov Bohdan</a> & designed by <a href="mailto:lishchynskayaanna@gmail.com">Lishchynska Anna</a></h3>
+        <p>For feedback: <a href="mailto:lishchynskayaanna@gmail.com">lishchynskayaanna@gmail.com</a></p>
+      </div>
+    </header>
+    <section class="players" id="playersSection">
+      <div class="logo"><a href=""><img src="img/logo-main.png" alt="logo"/></a></div>
+      <div class="playersForm form">
+        <h2>Выберите количество игроков</h2>
+        <div class="players__formCounter">
+          <div class="square" id="numberOfPlayers">2</div>
+          <div class="circle">
+            <div class="circle__item" id="playerUp">&and;</div>
+            <div class="circle__item" id="playerDown">&or;</div>
+            <div class="message message__max" id="message__max">Максимальное количество игроков: 8</div>
+            <div class="message message__min" id="message__min">Минимальное количество игроков: 2</div>
+          </div>
+        </div>
+        <div class="form__buttons">
+          <div class="button__back button" id="playersExit"><span>&#x27F5;</span>Назад</div>
+          <div class="button__further button" id="playersFurther">Далее <span>&#x27F6;</span></div>
+        </div>
+      </div>
+      <div class="footer">
+        <h3>The game is developed by <a href="mailto:yelmanovbohdan@gmail.com">Yelmanov Bohdan</a> & designed by <a href="mailto:lishchynskayaanna@gmail.com">Lishchynska Anna</a></h3>
+        <p>For feedback: <a href="mailto:lishchynskayaanna@gmail.com">lishchynskayaanna@gmail.com</a></p>
+      </div>
+    </section>
+    <section class="names" id="namesSection">
+      <div class="logo"><a href=""><img src="img/logo-main.png" alt="logo"/></a></div>
+      <div class="form">
+        <h2>Введите имена игроков</h2>
+        <div class="names__field">
+          <div class="names__fieldItem names__fieldItem1">
+            <div class="circle__item">1</div>
+            <input type="text" placeholder="Игрок 1" required="required" autofocus="autofocus" id="nameInput1"/>
+          </div>
+          <div class="names__fieldItem names__fieldItem2">
+            <div class="circle__item">2</div>
+            <input type="text" placeholder="Игрок 2" required="required" id="nameInput2"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem3">
+            <div class="circle__item">3</div>
+            <input type="text" placeholder="Игрок 3" required="required" id="nameInput3"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem4">
+            <div class="circle__item">4</div>
+            <input type="text" placeholder="Игрок 4" required="required" id="nameInput4"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem5">
+            <div class="circle__item">5</div>
+            <input type="text" placeholder="Игрок 5" required="required" id="nameInput5"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem6">
+            <div class="circle__item">6</div>
+            <input type="text" placeholder="Игрок 6" required="required" id="nameInput6"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem7">
+            <div class="circle__item">7</div>
+            <input type="text" placeholder="Игрок 7" required="required" id="nameInput7"/>
+          </div>
+          <div class="names__fieldItem" id="names__fieldItem8">
+            <div class="circle__item">8</div>
+            <input type="text" placeholder="Игрок 8" required="required" id="nameInput8"/>
+          </div>
+          <div class="form__buttons">
+            <div class="button__back button" id="nameExit"><span>&#x27F5;</span>Назад</div>
+            <div class="button__further button" id="namesFurther">Далее <span>&#x27F6;</span></div>
+            <div class="button__error" id="namesError">Заполните все поля</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h3>The game is developed by <a href="mailto:yelmanovbohdan@gmail.com">Yelmanov Bohdan</a> & designed by <a href="mailto:lishchynskayaanna@gmail.com">Lishchynska Anna</a></h3>
+        <p>For feedback: <a href="mailto:lishchynskayaanna@gmail.com">lishchynskayaanna@gmail.com</a></p>
+      </div>
+    </section>
+    <section class="playArea">
+      <div class="playArea__playButton" id="playButton">Крутить</div>
+      <div class="playArea__circle" id="circle">
+        <div class="playArea__circle-center"></div>
+        <div class="playArea__circleLine playArea__circle--1" id="circle1">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--2" id="circle2">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--3" id="circle3">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--4" id="circle4">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--5" id="circle5">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--6" id="circle6">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--7" id="circle7">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="playArea__circleLine playArea__circle--8" id="circle8">
+          <div class="hidden"></div>
+          <div class="shown"></div>
+        </div>
+        <div class="arrow"></div>
+        <div class="circle__names" id="circle__names">
+          <p class="circle__name" id="circle__name1"></p>
+          <p class="circle__name" id="circle__name2"></p>
+          <p class="circle__name" id="circle__name3"></p>
+          <p class="circle__name" id="circle__name4"></p>
+          <p class="circle__name" id="circle__name5"></p>
+          <p class="circle__name" id="circle__name6"></p>
+          <p class="circle__name" id="circle__name7"></p>
+          <p class="circle__name" id="circle__name8"></p>
+        </div>
+      </div>
+      <div class="playArea__modalChoose" id="modalChoose">
+        <h2 class="playArea__chooseText" id="chooseText"></h2>
+        <div class="playArea__chooseButtonWrap">
+          <div class="playArea__chooseButton" id="true">Правда</div>
+          <div class="playArea__chooseButton" id="action">Действие</div>
+        </div>
+        <div class="playArea__skipButton" id="modalChoose_skip">Пропустить</div>
+      </div>
+      <div class="playArea__card" id="card">
+        <h2 id="card__heading"></h2>
+        <p id="card__task"></p>
+        <button class="doneButton" id="done">OK <span>&#x27f6;</button>
+      </div>
+      <button class="playArea__exitButton exit" id="exit">меню</button><img class="playArea__logo" src="img/logo-main.png" alt="logo"/>
+    </section>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
